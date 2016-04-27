@@ -121,6 +121,7 @@ What・Whyもここに書くと良いと思う
 pullRequestを出すときは、commitにメッセージを残すことでそのブランチがマージされた時点で一緒にissueもcloseしてくれる。
 #### 書き方
 `$ git commit -m "fix #10"`
+
 「fix」の部分は`close`や`closed`、`fixed`などを使うことも可能。
 
 ##### もしcommit時に書き忘れた場合は、、、
