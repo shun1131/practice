@@ -115,3 +115,13 @@ What・Whyもここに書くと良いと思う
 #### 備考
 ---
 [ABC-547](http://backlog/view/abc-547) iOS 9対応　については、修正コストが当初の予想以上にかかるため、次期バージョンで対応することになりました。[ABC-560 iOS 9対応時の不具合について](http://backlog/view/abc-560)
+
+
+# Pull Requestの方法
+pullRequestを出すときは、commitにメッセージを残すことでそのブランチがマージされた時点で一緒にissueもcloseしてくれる。
+#### 書き方
+`$ git commit -m "fix #10"`
+「fix」の部分は`close`や`closed`、`fixed`などを使うことも可能。
+
+##### もしcommit時に書き忘れた場合は、、、
+pull requestのコメント挿入箇所で`closed #10`みたいな感じで入力してそれをコメントに残しておけばおk！
