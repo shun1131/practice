@@ -1,0 +1,719 @@
+[
+    {
+        "id": 2,
+        "nickname": "shogo",
+        "email": "shogo@hoge.com",
+        "password_digest": "$2a$10$Ce9bS/yoVUTBFxJ06vaGwe9mHLy5rdkKVWzDJnoD.Tbk8708JRmry",
+        "email_confirmed": true,
+        "confirm_token": "XKTmV4rEHJQulWq5DV8xNA",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:04.000Z",
+        "updated_at": "2017-03-28T01:17:04.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 7,
+                "wallet_user_id": 2,
+                "address": "375c01c4be5fdf54",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "wallet_user_id": 2,
+                "address": "034b7fcc250c8a1e",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "wallet_user_id": 2,
+                "address": "54c1de6832011fc6",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "wallet_user_id": 2,
+                "address": "363ca5f3795f2b46",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "agent_agent_wallet_user": {
+            "id": 1,
+            "agent_agent_id": 1,
+            "wallet_user_id": 2,
+            "created_at": "2017-03-28T01:17:07.000Z",
+            "updated_at": "2017-03-28T01:17:07.000Z"
+        },
+        "request_logs": []
+    },
+    {
+        "id": 3,
+        "nickname": "shunji",
+        "email": "shunji@hoge.com",
+        "password_digest": "$2a$10$l2Ut4Q4XLsGuRpy6UtJWeuVYlhDKAWyYnhNtSn36iOYJ8LuL793YW",
+        "email_confirmed": true,
+        "confirm_token": "1s1QBM7LYsfRzmpvbJiWow",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:04.000Z",
+        "updated_at": "2017-03-28T01:17:04.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 11,
+                "wallet_user_id": 3,
+                "address": "a6ef73ce3500cccb",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "wallet_user_id": 3,
+                "address": "eb6c99eb43597713",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "wallet_user_id": 3,
+                "address": "7a596d9edf1fa8df",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "wallet_user_id": 3,
+                "address": "9578a879e95eefad",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    },
+    {
+        "id": 4,
+        "nickname": "agent1",
+        "email": "agent1@hoge.com",
+        "password_digest": "$2a$10$hVMlrYpjVeHqLjTglKpxQO/tQiXh/YVgEJMSajtRGaZPrsB3MOx0O",
+        "email_confirmed": true,
+        "confirm_token": "b4OL7wsvmjeJ6PrAAlXluA",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:04.000Z",
+        "updated_at": "2017-03-28T01:17:04.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 15,
+                "wallet_user_id": 4,
+                "address": "5154e5a2674fb81c",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "wallet_user_id": 4,
+                "address": "444d528f320d7c7d",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:07.000Z",
+                "updated_at": "2017-03-28T01:17:07.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "wallet_user_id": 4,
+                "address": "3e9b4cd60244f609",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "wallet_user_id": 4,
+                "address": "fe98d8df7982c0b0",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    },
+    {
+        "id": 5,
+        "nickname": "test1",
+        "email": "test1@hoge.com",
+        "password_digest": "$2a$10$H/x1LmDW6S.mAK8xcVw8Te5GqfgpDRs7o25P.gY7bZDQgIEVndI.O",
+        "email_confirmed": true,
+        "confirm_token": "pLIfzcMRvkRwzl3Vm2Tbvg",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:04.000Z",
+        "updated_at": "2017-03-28T01:17:04.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 19,
+                "wallet_user_id": 5,
+                "address": "c872f3012d56a0fc",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "wallet_user_id": 5,
+                "address": "5afe6944486e7202",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "wallet_user_id": 5,
+                "address": "b4e91a40fecde83e",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "wallet_user_id": 5,
+                "address": "00de9d9514b366bf",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    },
+    {
+        "id": 6,
+        "nickname": "test2",
+        "email": "test2@hoge.com",
+        "password_digest": "$2a$10$j1B2HHYneQQOgFPTc/cFHuTp.q6717U8SPUq9Z7gcjsD9vuezvaNW",
+        "email_confirmed": true,
+        "confirm_token": "0G4-JHMqoIj6nhl8UWkNoQ",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:04.000Z",
+        "updated_at": "2017-03-28T01:17:04.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 23,
+                "wallet_user_id": 6,
+                "address": "70d31bfbd98e637a",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "wallet_user_id": 6,
+                "address": "834772cf42a751d0",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "wallet_user_id": 6,
+                "address": "5751da7cba686c4e",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "wallet_user_id": 6,
+                "address": "682757a37c0702c7",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    },
+    {
+        "id": 7,
+        "nickname": "test3",
+        "email": "test3@hoge.com",
+        "password_digest": "$2a$10$2zT13ULg0V7RFeZ.wmXWgeTFJKeEzXIuCiXnp5ajXpACHTZOkVem6",
+        "email_confirmed": true,
+        "confirm_token": "RiVRvDSpBhUaTmJrxlLwQw",
+        "corporate_account_accepted": false,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-28T01:17:05.000Z",
+        "updated_at": "2017-03-28T01:17:05.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 27,
+                "wallet_user_id": 7,
+                "address": "9d922d9c197a4627",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "wallet_user_id": 7,
+                "address": "59e03383f026e667",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "wallet_user_id": 7,
+                "address": "8647ab1cce92cee5",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "wallet_user_id": 7,
+                "address": "bca71afc3813f69e",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:17:08.000Z",
+                "updated_at": "2017-03-28T01:17:08.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "10000000.0"
+                    }
+                ]
+            }
+        ],
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    },
+    {
+        "id": 19,
+        "nickname": "itsuki-chan",
+        "email": "nnn@gmail.com",
+        "password_digest": "$2a$10$AEgMiZBp/xf2L7zbHgshZuOOobctXtA04Xegg/DktU1ShWTXGmJ0a",
+        "email_confirmed": true,
+        "confirm_token": "YRHL_uKbt3IcjpSR66Cstg",
+        "corporate_account_accepted": true,
+        "last_signed_in_at": null,
+        "created_at": "2017-03-25T05:29:51.000Z",
+        "updated_at": "2017-03-25T05:29:51.000Z",
+        "use_two_factor_auth": false,
+        "two_factor_auth_secret": null,
+        "deleted_at": null,
+        "accounts": [
+            {
+                "id": 75,
+                "wallet_user_id": 19,
+                "address": "7d8c80044eb31d03",
+                "wallet_currency_id": 1,
+                "created_at": "2017-03-28T01:21:28.000Z",
+                "updated_at": "2017-03-28T01:21:28.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "USD"
+                },
+                "records": [
+                    {
+                        "balance": "99970.0"
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "wallet_user_id": 19,
+                "address": "4e34c1a73e3ef2b7",
+                "wallet_currency_id": 2,
+                "created_at": "2017-03-28T01:21:28.000Z",
+                "updated_at": "2017-03-28T01:21:28.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "JPY"
+                },
+                "records": [
+                    {
+                        "balance": "500000.0"
+                    }
+                ]
+            },
+            {
+                "id": 77,
+                "wallet_user_id": 19,
+                "address": "cc76debda98b18d8",
+                "wallet_currency_id": 6,
+                "created_at": "2017-03-28T01:21:28.000Z",
+                "updated_at": "2017-03-28T01:21:28.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "GBP"
+                },
+                "records": [
+                    {
+                        "balance": "300.0"
+                    }
+                ]
+            },
+            {
+                "id": 78,
+                "wallet_user_id": 19,
+                "address": "31f09924955ceb85",
+                "wallet_currency_id": 16,
+                "created_at": "2017-03-28T01:21:28.000Z",
+                "updated_at": "2017-03-28T01:21:28.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "XRP"
+                },
+                "records": [
+                    {
+                        "balance": "0.0"
+                    }
+                ]
+            },
+            {
+                "id": 79,
+                "wallet_user_id": 19,
+                "address": "96127f62d3867cb8",
+                "wallet_currency_id": 18,
+                "created_at": "2017-03-28T01:21:28.000Z",
+                "updated_at": "2017-03-28T01:21:28.000Z",
+                "deleted_at": null,
+                "currency": {
+                    "code": "BTC"
+                },
+                "records": [
+                    {
+                        "balance": "0.0"
+                    }
+                ]
+            }
+        ],
+        "kyc_paper": {
+            "id": 1,
+            "wallet_user_id": 19,
+            "trading_agreed": false,
+            "face_and_passport_file_name": "03.png",
+            "face_and_passport_content_type": "image/png",
+            "face_and_passport_file_size": 16774,
+            "face_and_passport_updated_at": "2017-03-25T05:32:10.000Z",
+            "passport_file_name": "03.png",
+            "passport_content_type": "image/png",
+            "passport_file_size": 16774,
+            "passport_updated_at": "2017-03-25T05:32:10.000Z",
+            "certificate_of_residence_file_name": "03.png",
+            "certificate_of_residence_content_type": "image/png",
+            "certificate_of_residence_file_size": 16774,
+            "certificate_of_residence_updated_at": "2017-03-25T05:32:10.000Z",
+            "certificate_of_residence_reserve_file_name": "03.png",
+            "certificate_of_residence_reserve_content_type": "image/png",
+            "certificate_of_residence_reserve_file_size": 16774,
+            "certificate_of_residence_reserve_updated_at": "2017-03-25T05:32:10.000Z",
+            "face_and_license_file_name": null,
+            "face_and_license_content_type": null,
+            "face_and_license_file_size": null,
+            "face_and_license_updated_at": null,
+            "license_file_name": null,
+            "license_content_type": null,
+            "license_file_size": null,
+            "license_updated_at": null,
+            "license_reverse_file_name": null,
+            "license_reverse_content_type": null,
+            "license_reverse_file_size": null,
+            "license_reverse_updated_at": null,
+            "utility_bill_file_name": null,
+            "utility_bill_content_type": null,
+            "utility_bill_file_size": null,
+            "utility_bill_updated_at": null,
+            "country": "JP",
+            "first_name_kanji": "大石",
+            "last_name_kanji": "伊月",
+            "first_name": "Itsuki",
+            "last_name": "Oishi",
+            "birth_date": "2017-03-01",
+            "street": "Shibuya",
+            "city": "Sagashi",
+            "region": "Tokyo",
+            "postal_code": "111-1111",
+            "tel": "00-1234-1234",
+            "created_at": "2017-03-28T01:21:28.000Z",
+            "updated_at": "2017-03-28T01:21:28.000Z",
+            "status": "accepted",
+            "message": null,
+            "preliminary_file_name": null,
+            "preliminary_content_type": null,
+            "preliminary_file_size": null,
+            "preliminary_updated_at": null
+        },
+        "deposit_xrp_addresses": [],
+        "deposit_eth_addresses": [],
+        "deposit_btc_addresses": [],
+        "debit_cards": [],
+        "corporate_account_opening_papers": [],
+        "request_logs": []
+    }
+]
